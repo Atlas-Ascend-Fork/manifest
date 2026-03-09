@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://gitcode.com/cann" name="origin" review="https://gitcode.com/cann"/>
+    <default remote="origin" revision="master" sync-c="true", sync-j="4"/>
+    <include name="cann.xml"/>
+</manifest>
