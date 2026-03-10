@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://gitcode.com/cann" name="origin" review="https://gitcode.com/cann"/>
+    <default remote="origin" revision="master" sync-c="true" sync-j="4"/>
+    <include name="cann.xml"/>
+    <project name="asc-devkit" path="asc-devkit" remote="origin" revision="master"/>
+    <project name="pyasc" path="pyasc" remote="origin" revision="master"/>
+    <project name="pypto" path="pypto" remote="origin" revision="master"/>
+    <project name="pto-isa" path="pto-isa" remote="origin" revision="master"/>
+    <project name="atvoss" path="atvoss" remote="origin" revision="master"/>
+    <project name="catlass" path="catlass" remote="origin" revision="master"/>
+    <project name="ops-nn" path="ops-nn" remote="origin" revision="master"/>
+    <project name="ops-math" path="ops-math" remote="origin" revision="master"/>
+    <project name="ops-transformer" path="ops-transformer" remote="origin" revision="master"/>
+    <project name="ops-cv" path="ops-cv" remote="origin" revision="master"/>
+    <project name="hixl" path="hixl" remote="origin" revision="master"/>
+    <project name="shmem" path="shmem" remote="origin" revision="master"/>
+    <project name="hccl" path="hccl" remote="origin" revision="master"/>
+    <project name="hcomm" path="hcomm" remote="origin" revision="master"/>
+    <project name="ascend-transformer-boost" path="ascend-transformer-boost" remote="origin" revision="master"/>
+    <project name="sip" path="sip" remote="origin" revision="master"/>
+    <project name="ge" path="ge" remote="origin" revision="master"/>
+    <project name="metadef" path="metadef" remote="origin" revision="master"/>
+    <project name="graph-autofusion" path="graph-autofusion" remote="origin" revision="master"/>
+    <project name="triton-inference-server-ge-backend" path="triton-inference-server-ge-backend" remote="origin" revision="master"/>
+    <project name="runtime" path="runtime" remote="origin" revision="master"/>
+    <project name="driver" path="driver" remote="origin" revision="master"/>
+    <project name="oam-tools" path="oam-tools" remote="origin" revision="master"/>
+    <project name="amct" path="amct" remote="origin" revision="master"/>
+</manifest>
