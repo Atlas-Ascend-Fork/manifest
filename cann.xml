@@ -3,7 +3,7 @@
     <remote fetch="https://gitcode.com/cann" name="origin" review="https://gitcode.com/cann/"/>
     <default remote="origin" revision="master" sync-c="true" sync-j="4"/>
     <project groups="default" name="ops-math" path="ops/ops-math" remote="origin" revision="master"/>
-    <project groups="default" name="ops-base" path="ops-base" remote="origin" revision="master"/>
+    <project groups="default" name="opbase" path="opbase" remote="origin" revision="master"/>
     <project groups="default" name="ops-cv" path="ops/ops-cv" remote="origin" revision="master"/>
     <project groups="default" name="ops-nn" path="ops/ops-nn" remote="origin" revision="master"/>
     <project groups="default" name="ops-transformer" path="ops/ops-transformer" remote="origin" revision="master"/>
