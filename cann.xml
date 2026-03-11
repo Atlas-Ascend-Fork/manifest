@@ -2,14 +2,14 @@
 <manifest>
     <remote fetch="https://gitcode.com/cann" name="origin" review="https://gitcode.com/cann/"/>
     <default remote="origin" revision="master" sync-c="true" sync-j="4"/>
-    <project groups="default" name="ops-math" path="ops/ops-math" remote="origin" revision="master"/>
-    <project groups="default" name="opbase" path="opbase" remote="origin" revision="master"/>
-    <project groups="default" name="ops-cv" path="ops/ops-cv" remote="origin" revision="master"/>
-    <project groups="default" name="ops-nn" path="ops/ops-nn" remote="origin" revision="master"/>
-    <project groups="default" name="ops-transformer" path="ops/ops-transformer" remote="origin" revision="master"/>
+    <project groups="default,ops" name="ops-math" path="ops/ops-math" remote="origin" revision="master"/>
+    <project groups="default,ops" name="opbase" path="opbase" remote="origin" revision="master"/>
+    <project groups="default,ops" name="ops-cv" path="ops/ops-cv" remote="origin" revision="master"/>
+    <project groups="default,ops" name="ops-nn" path="ops/ops-nn" remote="origin" revision="master"/>
+    <project groups="default,ops" name="ops-transformer" path="ops/ops-transformer" remote="origin" revision="master"/>
     <project groups="default" name="atvoss" path="asc/atvos" remote="origin" revision="master"/>
     <project groups="default" name="hixl" path="hixl" remote="origin" revision="master"/>
-    <project groups="default" name="hccl" path="hccl" remote="origin" revision="master"/>
+    <project groups="default,ops" name="hccl" path="hccl" remote="origin" revision="master"/>
     <project groups="default" name="hcomm" path="hcomm" remote="origin" revision="master"/>
     <project groups="default" name="ge" path="air" remote="origin" revision="master"/>
     <project groups="default" name="metadef" path="metadef" remote="origin" revision="master"/>
@@ -18,4 +18,8 @@
     <project groups="default" name="runtime" path="runtime" remote="origin" revision="master"/>
     <project groups="default" name="oam-tools" path="oam-tools" remote="origin" revision="master"/>
     <project groups="default" name="asc-tools" path="asc/asc-tools" remote="origin" revision="master"/>
+    <project groups="default" name="pypto" path="pypto" remote="origin" revision="master"/>
+    <project groups="default" name="pto-isa" path="pto-isa" remote="origin" revision="master"/>
+    <project groups="default" name="amct" path="amct" remote="origin" revision="master"/>
+    <project groups="default" name="atvc" path="atvc" remote="origin" revision="master"/>
 </manifest>
