@@ -1,13 +1,12 @@
-# CANN Manifest 仓库
-
-> CANN（Compute Architecture for Neural Networks）是华为针对 AI 场景推出的异构计算架构
+# CANN manifest 仓库
 
 ## 项目简介
 
-CANN 架构对上支持多种 AI 框架，对下服务 AI 处理器与编程，发挥承上启下的关键作用，是提升昇腾 AI 处理器计算效率的关键平台。
+本仓库是 CANN 的 **manifest 配置仓库**，用于通过 `repo` 工具管理和同步 CANN 相关的多个代码仓，定义 CANN 组件的仓库地址、分支版本和目录结构。
 
-- **官方仓库**: [https://gitcode.com/cann](https://gitcode.com/cann)
-- **文档中心**: [https://gitcode.com/cann](https://gitcode.com/cann)
+通过本 manifest，开发者可以一键初始化和同步 CANN 相关源码仓，统一管理核心运行时、算子库等多个子仓库，确保各组件版本兼容且易于维护。
+
+- **开源代码仓库仓库**: [https://gitcode.com/cann](https://gitcode.com/cann)
 
 ---
 
@@ -42,7 +41,7 @@ repo forall -c 'git lfs pull'
 
 ```bash
 mkdir cann && cd cann
-repo init -u git@gitcode.com:cann/manifest.git -b master --no-repo-verify -m cann-dev.xml
+repo init -u git@gitcode.com:cann/manifest.git -b master --no-repo-verify -m cann-master.xml
 repo sync -c --no-tags -j12
 ```
 
@@ -50,7 +49,7 @@ repo sync -c --no-tags -j12
 
 ```bash
 mkdir cann && cd cann
-repo init -u https://gitcode.com/cann/manifest.git -b master --no-repo-verify -m cann-dev.xml
+repo init -u https://gitcode.com/cann/manifest.git -b master --no-repo-verify -m cann-master.xml
 repo sync -c --no-tags -j12
 ```
 
@@ -67,11 +66,5 @@ repo sync -c --no-tags -j12
 ```bash
 repo status
 ```
-
----
-
-## 许可证
-
-请参考各子仓库的 LICENSE 文件。
 
 ---
