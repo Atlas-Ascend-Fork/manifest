@@ -22,4 +22,5 @@
     <project groups="default" name="pto-isa" path="pto-isa" remote="origin" revision="8.5.0"/>
     <project groups="default" name="amct" path="amct" remote="origin" revision="8.5.0"/>
     <project groups="default" name="atvc" path="atvc" remote="origin" revision="8.5.0"/>
+    <project groups="default" name="driver" path="driver" remote="origin" revision="8.5.0"/>
 </manifest>
