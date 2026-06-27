@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="https://gitcode.com/cann" name="origin" review="https://gitcode.com/cann/"/>
-    <default remote="origin" revision="9.0.0" sync-c="true" sync-j="4"/>
-    <project groups="default,ops" name="ops-math" path="ops/ops-math" remote="origin" revision="9.0.0"/>
-    <project groups="default,ops" name="opbase" path="opbase" remote="origin" revision="9.0.0"/>
-    <project groups="default,ops" name="ops-cv" path="ops/ops-cv" remote="origin" revision="9.0.0"/>
-    <project groups="default,ops" name="ops-nn" path="ops/ops-nn" remote="origin" revision="9.0.0"/>
-    <project groups="default,ops" name="ops-transformer" path="ops/ops-transformer" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="atvoss" path="asc/atvos" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="hixl" path="hixl" remote="origin" revision="9.0.0"/>
-    <project groups="default,ops" name="hccl" path="hccl" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="hcomm" path="hcomm" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="ge" path="air" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="metadef" path="metadef" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="graph-autofusion" path="graph-autofusion" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="asc-devkit" path="asc-devkit" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="runtime" path="runtime" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="oam-tools" path="oam-tools" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="asc-tools" path="asc/asc-tools" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="pypto" path="pypto" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="pto-isa" path="pto-isa" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="amct" path="amct" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="atvc" path="atvc" remote="origin" revision="9.0.0"/>
+    <default remote="origin" revision="9.1.0-beta.2" sync-c="true" sync-j="4"/>
+    <project groups="default,ops" name="ops-math" path="ops/ops-math" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default,ops" name="opbase" path="opbase" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default,ops" name="ops-cv" path="ops/ops-cv" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default,ops" name="ops-nn" path="ops/ops-nn" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default,ops" name="ops-transformer" path="ops/ops-transformer" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="atvoss" path="asc/atvos" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="hixl" path="hixl" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default,ops" name="hccl" path="hccl" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="hcomm" path="hcomm" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="ge" path="air" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="metadef" path="metadef" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="graph-autofusion" path="graph-autofusion" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="asc-devkit" path="asc-devkit" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="runtime" path="runtime" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="oam-tools" path="oam-tools" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="asc-tools" path="asc/asc-tools" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="pto-isa" path="pto-isa" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="amct" path="amct" remote="origin" revision="9.1.0-beta.2"/>
+    <project groups="default" name="atvc" path="atvc" remote="origin" revision="9.1.0-beta.2"/>
 </manifest>
