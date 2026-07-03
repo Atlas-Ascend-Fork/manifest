@@ -14,12 +14,12 @@
     <project groups="default" name="ge" path="air" remote="origin" revision="9.0.0"/>
     <project groups="default" name="metadef" path="metadef" remote="origin" revision="9.0.0"/>
     <project groups="default" name="graph-autofusion" path="graph-autofusion" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="asc-devkit" path="asc-devkit" remote="origin" revision="9.0.0"/>
+    <project groups="default" name="asc-devkit" path="asc/asc-devkit" remote="origin" revision="9.0.0"/>
     <project groups="default" name="runtime" path="runtime" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="oam-tools" path="oam-tools" remote="origin" revision="9.0.0"/>
+    <project groups="default" name="oam-tools" path="oam-tools/oam-tools" remote="origin" revision="9.0.0"/>
     <project groups="default" name="asc-tools" path="asc/asc-tools" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="pypto" path="pypto" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="pto-isa" path="pto-isa" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="amct" path="amct" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="atvc" path="atvc" remote="origin" revision="9.0.0"/>
+    <project groups="default" name="pypto" path="atc/opcpmpiler/ascend_tensor" remote="origin" revision="9.0.0"/>
+    <project groups="default" name="pto-isa" path="pto/pto-tile-lib" remote="origin" revision="9.0.0"/>
+    <project groups="default" name="amct" path="amct/amct" remote="origin" revision="9.0.0"/>
+    <project groups="default" name="atvc" path="asc/atvc" remote="origin" revision="9.0.0"/>
 </manifest>
