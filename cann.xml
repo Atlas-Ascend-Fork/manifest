@@ -18,7 +18,7 @@
     <project groups="default" name="runtime" path="runtime" remote="origin" revision="9.0.0"/>
     <project groups="default" name="oam-tools" path="oam-tools/oam-tools" remote="origin" revision="9.0.0"/>
     <project groups="default" name="asc-tools" path="asc/asc-tools" remote="origin" revision="9.0.0"/>
-    <project groups="default" name="pypto" path="atc/opcpmpiler/ascend_tensor" remote="origin" revision="9.0.0"/>
+    <project groups="default" name="pypto" path="atc/opcompiler/ascend_tensor" remote="origin" revision="9.0.0"/>
     <project groups="default" name="pto-isa" path="pto/pto-tile-lib" remote="origin" revision="9.0.0"/>
     <project groups="default" name="amct" path="amct/amct" remote="origin" revision="9.0.0"/>
     <project groups="default" name="atvc" path="asc/atvc" remote="origin" revision="9.0.0"/>
