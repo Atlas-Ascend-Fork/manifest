@@ -41,7 +41,7 @@ repo forall -c 'git lfs pull'
 
 ```bash
 mkdir cann && cd cann
-repo init -u git@gitcode.com:cann/manifest.git -b master --no-repo-verify -m cann-master.xml
+repo init -u git@gitcode.com:cann/manifest.git -b master --no-repo-verify
 repo sync -c --no-tags -j12
 ```
 
@@ -49,7 +49,7 @@ repo sync -c --no-tags -j12
 
 ```bash
 mkdir cann && cd cann
-repo init -u https://gitcode.com/cann/manifest.git -b master --no-repo-verify -m cann-master.xml
+repo init -u https://gitcode.com/cann/manifest.git -b master --no-repo-verify
 repo sync -c --no-tags -j12
 ```
 
