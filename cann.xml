@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote fetch="https://gitcode.com/cann" name="origin" review="https://gitcode.com/cann"/>
-    <default remote="origin" revision="master" sync-c="true" sync-j="4"/>
-    <project groups="default" name="cmake" path="cmake" remote="origin"/>
-    <project groups="default,ops" name="opbase" path="opbase" remote="origin"/>
-    <project groups="default,ops" name="ops-math" path="ops/ops-math" remote="origin"/>
-    <project groups="default,ops" name="ops-cv" path="ops/ops-cv" remote="origin"/>
-    <project groups="default,ops" name="ops-nn" path="ops/ops-nn" remote="origin"/>
-    <project groups="default,ops" name="ops-transformer" path="ops/ops-transformer" remote="origin"/>
-    <project groups="default" name="hixl" path="hixl" remote="origin"/>
-    <project groups="default,ops" name="hccl" path="hccl" remote="origin"/>
-    <project groups="default" name="hcomm" path="hcomm" remote="origin"/>
-    <project groups="default" name="ge" path="ge" remote="origin"/>
-    <project groups="default" name="metadef" path="metadef" remote="origin"/>
-    <project groups="default" name="graph-autofusion" path="graph-autofusion" remote="origin"/>
-    <project groups="default" name="asc-devkit" path="asc/asc-devkit" remote="origin"/>
-    <project groups="default" name="asc-tools" path="asc/asc-tools" remote="origin"/>
-    <project groups="default" name="atvc" path="asc/atvc" remote="origin"/>
-    <project groups="default" name="atvoss" path="asc/atvoss" remote="origin"/>
-    <project groups="default" name="runtime" path="runtime" remote="origin"/>
-    <project groups="default" name="oam-tools" path="oam-tools" remote="origin"/>
-    <project groups="default" name="pypto" path="pypto" remote="origin"/>
-    <project groups="default" name="pto-isa" path="pto-isa" remote="origin"/>
-    <project groups="default" name="amct" path="amct" remote="origin"/>
+    <default remote="origin" revision="9.2.0" sync-c="true" sync-j="4"/>
+    <project groups="default" name="cmake" path="cmake" remote="origin" revision="9.2.0"/>
+    <project groups="default,ops" name="opbase" path="opbase" remote="origin" revision="9.2.0"/>
+    <project groups="default,ops" name="ops-math" path="ops/ops-math" remote="origin" revision="9.2.0"/>
+    <project groups="default,ops" name="ops-cv" path="ops/ops-cv" remote="origin" revision="9.2.0"/>
+    <project groups="default,ops" name="ops-nn" path="ops/ops-nn" remote="origin" revision="9.2.0"/>
+    <project groups="default,ops" name="ops-transformer" path="ops/ops-transformer" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="hixl" path="hixl" remote="origin" revision="9.2.0"/>
+    <project groups="default,ops" name="hccl" path="hccl" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="hcomm" path="hcomm" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="ge" path="ge" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="metadef" path="metadef" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="graph-autofusion" path="graph-autofusion" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="asc-devkit" path="asc/asc-devkit" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="asc-tools" path="asc/asc-tools" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="atvc" path="asc/atvc" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="atvoss" path="asc/atvoss" remote="origin" revision="9.1.0-beta.1"/>
+    <project groups="default" name="runtime" path="runtime" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="oam-tools" path="oam-tools" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="pypto" path="pypto" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="pto-isa" path="pto-isa" remote="origin" revision="9.2.0"/>
+    <project groups="default" name="amct" path="amct" remote="origin" revision="9.2.0"/>
 </manifest>
