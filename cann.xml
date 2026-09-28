@@ -17,7 +17,7 @@
     <project groups="default" name="asc-devkit" path="asc/asc-devkit" remote="origin" revision="9.2.0"/>
     <project groups="default" name="asc-tools" path="asc/asc-tools" remote="origin" revision="9.2.0"/>
     <project groups="default" name="atvc" path="asc/atvc" remote="origin" revision="9.2.0"/>
-    <project groups="default" name="atvoss" path="asc/atvoss" remote="origin" revision="9.1.0-beta.1"/>
+    <project groups="default" name="atvoss" path="asc/atvoss" remote="origin" revision="9.2.0"/>
     <project groups="default" name="runtime" path="runtime" remote="origin" revision="9.2.0"/>
     <project groups="default" name="oam-tools" path="oam-tools" remote="origin" revision="9.2.0"/>
     <project groups="default" name="pypto" path="pypto" remote="origin" revision="9.2.0"/>
