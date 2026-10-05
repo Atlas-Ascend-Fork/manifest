@@ -12,6 +12,18 @@
 
 ## 快速开始
 
+### 环境准备
+
+先安装 Git、[Repo 工具](https://source.android.com/docs/setup/start)和 [Git LFS](https://git-lfs.com/)。本 manifest 包含使用 Git LFS 管理图片等文件的组件；下方 HTTPS 示例也会运行 `git lfs pull`。安装后执行：
+
+```bash
+repo version
+git lfs version
+git lfs install
+```
+
+前两条命令应能显示版本号，再继续执行下面的同步步骤。
+
 ### 1. 获取 CANN 主干代码
 
 #### 方式一：SSH（推荐）
