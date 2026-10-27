@@ -6,7 +6,7 @@
 
 通过本 manifest，开发者可以一键初始化和同步 CANN 相关源码仓，统一管理核心运行时、算子库等多个子仓库，确保各组件版本兼容且易于维护。
 
-- **开源代码仓库仓库**: [https://gitcode.com/cann](https://gitcode.com/cann)
+- **开源代码仓库**: [https://gitcode.com/cann](https://gitcode.com/cann)
 
 ---
 
